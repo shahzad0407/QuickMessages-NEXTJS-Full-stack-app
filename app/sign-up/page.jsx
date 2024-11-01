@@ -17,7 +17,7 @@ import {
 } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
 
-const page = () => {
+const Page = () => {
   const [darkMode, setDarkMode] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false)
 
@@ -183,4 +183,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

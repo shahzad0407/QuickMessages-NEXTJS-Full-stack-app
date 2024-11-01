@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { useSession } from 'next-auth/react'
 import ReactLoading from "react-loading";
 
-const page = () => {
+const Navbar = () => {
     let session = useSession()
 
     if(session.status =="loading"){
@@ -38,4 +38,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Navbar

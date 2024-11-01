@@ -12,7 +12,7 @@ import { useSession } from 'next-auth/react'
 import React, { useCallback, useEffect, useState } from 'react'
 import { useForm } from 'react-hook-form'
 
-const page = () => {
+const Page = () => {
   const session = useSession()
   const { toast } = useToast()
   const form = useForm({
@@ -130,4 +130,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
