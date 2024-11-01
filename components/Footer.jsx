@@ -8,7 +8,7 @@ const Footer = () => {
       Created By Shahzad
       <div className='flex justify-center items-center'>
         <Image alt='Github image' width={28} height={3} className=' bg-white border rounded-full' src='/github.png'></Image>
-        <Link href=''>
+        <Link href='https://github.com/shahzad0407/QuickMessages-NEXTJS-full-stack-app'>
         <span className='inline-block font-semibold text-white'>GitHub</span> 
         </Link>
       </div>
