@@ -24,7 +24,10 @@ const Page = () => {
 
   const [Messages, setMessages] = useState([])
   const [IsLoading, setIsLoading] = useState(false)
-  const profileUrl = `${window.location.origin}/u/${session.data?.user.username}`
+
+  if(typeof window != 'undefined'){
+    const profileUrl = `${window.location.origin}/u/${session.data?.user.username}`
+  }
   
 
   useEffect(() => {
