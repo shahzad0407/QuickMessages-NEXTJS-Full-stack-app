@@ -45,7 +45,7 @@ const Page = ({params}) => {
   return (
     <>
       <div className='flex flex-col items-center justify-center'>
-        <h1 className='font-bold text-2xl'>Public Profile link</h1>
+        <h1 className='font-bold text-2xl mt-8'>Public Profile link</h1>
         <Form {...form}>
       <form onSubmit={form.handleSubmit(onSubmit)} className="w-2/3 space-y-6">
         <FormField

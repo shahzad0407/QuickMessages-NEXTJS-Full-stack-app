@@ -106,12 +106,12 @@ const Page = () => {
   return (
     <>
     <div className='flex items-center flex-col'>
-      <h1 className='text-center font-bold text-2xl'>Dashboard</h1>
+      <h1 className='text-center font-bold text-2xl mt-12'>Dashboard</h1>
       <h2 className='text-center m-3 font-bold text-xl'>Your Profile URL</h2>
       <div className="flex w-full max-w-sm items-center space-x-2">
-      <Input disabled type="text" placeholder={profileUrl} />
-      <Button type="submit" onClick={copyToCipboard}>Copy URL</Button>
-    </div>
+        <Input disabled type="text" placeholder={profileUrl} />
+        <Button type="submit" onClick={copyToCipboard}>Copy URL</Button>
+      </div>
     <div className="flex items-center mt-8 space-x-2">
       <Switch {...register} id="airplane-mode" checked={acceptMessages} onCheckedChange={handleSwicthChange}/>
       <Label htmlFor="airplane-mode">Accept Messages</Label>
