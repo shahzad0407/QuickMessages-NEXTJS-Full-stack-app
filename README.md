@@ -17,7 +17,8 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 This project is made using shadCn,Nextjs,react,mongoDb,zod,NextAuth
-You can sigup and signin.You can send anonymous messages to a registered user and the user have the option to diable anyone from sending him/her message.
-The following link takes you to the page deployed on vercel
+The main of purpose of the app is that a person can send anonymous message to someone who has registered on the platform through a specific link.
+The registered person has a toggle button where he can toggle between if he wants to get messages or not.
+
 
 https://quick-messages-nextjs-full-stack-app-cld9.vercel.app/
